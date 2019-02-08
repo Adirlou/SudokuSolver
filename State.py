@@ -21,6 +21,7 @@ class State:
         else:
             self.state = np.zeros((9, 9), dtype='int')
 
+    # Found on https://stackoverflow.com/questions/37952851/formating-sudoku-grids-python-3
     def print_state(self):
         """
         Print the state, i.e. the board of the sudoku
