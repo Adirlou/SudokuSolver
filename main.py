@@ -1,5 +1,5 @@
-from State import *
-from Solver import *
+from state import *
+from solver import *
 
 # Taken from https://www.youtube.com/watch?v=LzxKkoeXLRo
 initial_board = np.array([

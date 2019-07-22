@@ -1,4 +1,4 @@
-from State import *
+from state import *
 import os, time
 
 def backtracking(state, animation=False):
@@ -33,5 +33,5 @@ def backtracking(state, animation=False):
         # Recurse, and if successful, return the next state computed
         if backtracking(next_state, animation):
             return next_state
-            
+
     return None
